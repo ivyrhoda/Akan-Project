@@ -1,4 +1,23 @@
-.name {
-    background-color: #CE796B;
+.home {
+    background-color:#56CBF9 ;
 }
 
+.description h1{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.description p{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+
+}
+
+.description ol{
+    font-size: 1.5rem;
+}
+
+7FBEEB
