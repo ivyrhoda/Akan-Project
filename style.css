@@ -1,8 +1,13 @@
-
+/* start of description */
 .home {
     background-color:#56CBF9 ;
     margin-top: 0;
 }
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: yellow;
 
 .description h1{
     color: #fff;
@@ -21,7 +26,77 @@
 .description ol{
     font-size: 1.5rem;
 }
+/* end of description */
 
+/* start of age calculation */
 .age {
     background-color: #7FBEEB;
 }
+
+.age h2{
+    font-size: 30px;
+    color:#fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.age .inputBox{
+    position: relative;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 300px;
+}
+
+.ageform .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px #531CB3;
+    outline: none;
+    resize: none;
+}
+
+.ageform .inputBox  label{
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000;
+}
+
+.ageform .inputBox input:focus ~ label,
+.ageform .inputBox input:valid ~ label,
+.ageform .inputBox input:focus ~ label,
+.ageform .inputBox input:valid~ label
+{
+    color:red;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.ageform .inputBox input[type="submit"]{
+    width: 100px;
+    background: brown;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.ageform .radio{
+    text-align: center;
+    
+}
+
+.ageform .radio label{
+    font-size: 13px;
+}
+
+/* enf of age calculation  */
