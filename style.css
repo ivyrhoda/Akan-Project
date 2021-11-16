@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
 /* start of description */
 .home {
     background-color:#56CBF9 ;
@@ -26,6 +36,8 @@
 
 .description ol{
     font-size: 1.5rem;
+    margin-left: 100px;
+    margin-top: 3rem ;
 }
 /* end of description */
 
