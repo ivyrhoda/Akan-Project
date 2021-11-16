@@ -1,7 +1,7 @@
 var curday = function(sp){
     today = new Date ();
     var dob =today.getDate();
-    var mm = today.getmonth()+1; //this is because january is 0.
+    var mm = today.getmonth()+1; //this is because january is 1.
     var year = today.getFullYear();
 
     if(dob<10) dob='0'+dd;

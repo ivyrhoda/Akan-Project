@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Naming</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
 </head>
 <body>
 <section class="home">
@@ -20,25 +21,41 @@
         </p>
     </div>
 </section>
+   
 
-<section class="age">
+   
     <form>
-        <h2>Send Message</h2>
+        <h2>Insert you Date Of Birth</h2>
         <div class="inputBox">
-            <input type="text" name="" required="required">
-            <span>Full Name</span>
+            <input type="number" name="" required min="1900" max="1960">
+            <label for="">enter the year</label>
+
         </div>
         <div class="inputBox">
-           <input type="text" name="" required="required">
-           <span>Email</span>
+           <input type="number" name="" required min="1" max="12">
+          <label for="">enter the month</label>
        </div>
-   </div>       
-</div>
-<div class="inputBox">
-  <input type="submit" name="" value="Send">
-</div>
+
+       <div class="inputBox">
+        <input type="number" name="" required min="1" max="31">
+       <label for="">enter the day of month</label>
+    </div>
+  
+        <div>
+          <input type="radio" id="male"
+           name="male" value="male">
+          <label for="male">Male</label>
+      
+          <input type="radio" id="female"
+           name="female" value="female">
+          <label for="female">Female</label>      
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+     
 
     </form>
-</section>
+  
 </body>
 </html>
