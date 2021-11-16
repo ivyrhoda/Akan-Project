@@ -1,5 +1,6 @@
 .home {
     background-color:#56CBF9 ;
+    margin-top: 0;
 }
 
 .description h1{
@@ -20,4 +21,6 @@
     font-size: 1.5rem;
 }
 
-7FBEEB
+.age {
+    background-color: #7FBEEB;
+}
