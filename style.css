@@ -8,6 +8,20 @@
     box-sizing: border-box;
 }
 
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding: 18px 80px;
+    box-shadow: 1px 1px 1px 1px coral;
+    background-color:black;
+
+}
+
+
 /* start of description */
 .home {
     background-color:#56CBF9 ;
@@ -17,20 +31,22 @@
 .logo{
     font-size: 1.5rem;
     font-weight: bold;
-    color: yellow;
+    color: blueviolet;
 }
 
 .description h1{
-    color: #fff;
+    color:palevioletred;
     font-size: 3rem;
     margin-bottom: 5rem;
     text-align: center;
+    margin-top: 4rem;
 }
 
 .description p{
     text-align: center;
     font-size: 2rem;
     line-height: 3rem;
+    color:yellow;
 
 }
 

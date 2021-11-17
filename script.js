@@ -11,9 +11,9 @@ var submit = function () {
     ];
     var month = document.getElementById("year").value   
     var year = document.getElementById("month").value
-    var day = document.getElementById("dob").value
-    var dateOfBirth = new Date(year + "/" + month + "/" + day);
-    var find = dateOfBirth.getdob();       
+    var dob = document.getElementById("dob").value
+    var dob = new Date(year + "/" + month + "/" + day);
+    var find = dob.getdob();       
     var male = document.getElementById("male");
     var female = document.getElementById("female");
     if (month =="" && year == "" && day == "" ) {
@@ -25,7 +25,7 @@ var submit = function () {
       else if (year <= 0) {
       alert( "please enter a valid year");
     };
-     if((day < 1) || (day > 31)) {
+     if((dob < 1) || (dob > 31)) {
       alert("enter a valid day between 1 to 31");
     }
     if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
