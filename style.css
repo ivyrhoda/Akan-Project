@@ -34,6 +34,17 @@ header{
     color: blueviolet;
 }
 
+.image-home img{
+    max-width: 90%;
+    height: 60%;
+    border-radius: 2rem;
+    padding-top: 10%;
+    width: 10%;
+    margin-left: 70%;
+    margin-bottom: 5rem;
+    mar
+}
+
 .description h1{
     color:palevioletred;
     font-size: 3rem;
@@ -56,10 +67,7 @@ header{
     margin-top: 3rem ;
 }
 
-img {
-    padding-right: 40%;
-    float: right;
-}
+
 /* end of description */
 
 /* start of age calculation */
