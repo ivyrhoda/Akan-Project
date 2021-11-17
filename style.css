@@ -38,11 +38,11 @@ header{
     max-width: 90%;
     height: 60%;
     border-radius: 2rem;
-    padding-top: 10%;
+    padding-top: 5%;
     width: 10%;
     margin-left: 70%;
     margin-bottom: 5rem;
-    mar
+    margin-top: 0;
 }
 
 .description h1{
