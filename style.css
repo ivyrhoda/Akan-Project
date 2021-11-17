@@ -55,6 +55,10 @@ header{
     margin-left: 100px;
     margin-top: 3rem ;
 }
+
+img {
+    padding-right: 40%;
+}
 /* end of description */
 
 /* start of age calculation */
@@ -132,5 +136,7 @@ header{
 .ageform .button{
     text-align: center;
     margin-top: 2rem;
+    font-size: 1.7rem;
+    color: chartreuse;
 }
 /* enf of age calculation  */
