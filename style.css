@@ -129,4 +129,7 @@ header{
     font-size: 13px;
 }
 
+.ageform .button{
+    text-align: center;
+}
 /* enf of age calculation  */
