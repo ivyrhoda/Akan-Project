@@ -29,10 +29,10 @@ var submit = function () {
       alert("enter a valid day between 1 to 31");
     }
     if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-      alert ("you were born on " +daysOfTheWeek[find] + " your akan name is " +maleNames[find]);
+      alert ("you were born on .. " +daysOfTheWeek[find] + " your akan name is " +maleNames[find]);
     };
     if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-      alert( "you were born on " +daysOfTheWeek[find] + " your akan name is " + femaleNames[find]);
+      alert( "you were born on .. " +daysOfTheWeek[find] + " your akan name is " + femaleNames[find]);
     }
   };
 
